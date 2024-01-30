@@ -18,14 +18,14 @@ function inicio() {
 
     if (host[0] === 'www.registropublico.gob.ni') {
 
-        urlConfig = 'https://www.registropublico.gob.ni/ServiciosCertificados/API/Emision/'
+        urlConfig = 'https://www./ServiciosCertificados/API/Emision/'
         urlServicio = urlConfig + 'ObtenerCertificadoBase64?idTransaccion=';
 
 
 
-    } else if (host[0] === 'siicarvalidacion.registropublico.gob.ni') {
+    } else if (host[0] === 'www') {
 
-        urlConfig = 'https://siicarvalidacion.registropublico.gob.ni/ServiciosCertificados/API/Emision/';
+        urlConfig = '/ServiciosCertificados/API/Emision/';
         urlServicio = urlConfig + 'ObtenerCertificadoBase64?idTransaccion=';
 
     } else {
